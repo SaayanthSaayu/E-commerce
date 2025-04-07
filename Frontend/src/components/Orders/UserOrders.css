@@ -1,0 +1,55 @@
+/* UserOrders.css */
+
+.user-orders-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.user-orders-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-orders-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-orders-container li {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.user-orders-container li:last-child {
+  margin-bottom: 0;
+}
+
+.user-orders-container li p {
+  margin: 5px 0;
+}
+
+.user-orders-container li ul {
+  list-style: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.user-orders-container li ul li {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.user-orders-container .no-orders, .user-orders-container .login-prompt {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}

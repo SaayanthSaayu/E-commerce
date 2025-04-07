@@ -1,0 +1,55 @@
+/* UsersOrders.css */
+
+.users-orders-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.users-orders-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.users-orders-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden; /* Hide overflow to apply border-radius */
+}
+
+.users-orders-container th,
+.users-orders-container td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.users-orders-container th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.users-orders-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users-orders-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.users-orders-container li {
+  margin-bottom: 5px;
+}
+
+.users-orders-container p {
+  text-align: center;
+  color: #777;
+}

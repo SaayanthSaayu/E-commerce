@@ -1,0 +1,66 @@
+/* UserRegister.css */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.register-form {
+  width: 350px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60; /* Green submit button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #219653;
+}
+
+.existing, .client {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.existing a, .client a {
+  color: #3498db; /* Blue link color */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.existing a:hover, .client a:hover {
+  text-decoration: underline;
+}

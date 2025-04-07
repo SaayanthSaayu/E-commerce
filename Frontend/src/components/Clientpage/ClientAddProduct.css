@@ -1,0 +1,52 @@
+/* ClientAddProduct.css */
+
+.client-add-product-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.client-add-product-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.client-add-product-container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.client-add-product-container input,
+.client-add-product-container textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.client-add-product-container textarea {
+  resize: vertical;
+}
+
+.client-add-product-container input[type="file"] {
+  padding: 5px;
+}
+
+.client-add-product-container button {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.client-add-product-container button:hover {
+  background-color: #2980b9;
+}

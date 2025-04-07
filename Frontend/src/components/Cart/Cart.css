@@ -1,0 +1,79 @@
+/* Cart.css */
+
+.cart-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cart-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-container li {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-container img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.cart-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #e74c3c; /* Red for remove */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.cart-container button:hover {
+  background-color: #c0392b;
+}
+
+.cart-container p {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.cart-container .place-order-btn {
+  background-color: #27ae60; /* Green for place order */
+  color: white;
+}
+
+.cart-container .place-order-btn:hover {
+  background-color: #219653;
+}
+
+.cart-container .error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.cart-container .empty-cart {
+  text-align: center;
+  color: #777;
+}
+
+.cart-container .login-prompt {
+  text-align: center;
+  color: #777;
+}

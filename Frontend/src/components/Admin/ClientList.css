@@ -1,0 +1,80 @@
+/* ClientList.css */
+
+.client-list-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.client-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.client-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.client-list-container li {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-list-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.client-list-container button:hover {
+  background-color: #2980b9;
+}
+
+.client-list-container h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.client-list-container img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 4px;
+}
+
+.client-list-container .product-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.client-list-container .product-list li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client-list-container .product-list li img {
+  margin-left: 10px;
+}
+
+.client-list-container .no-clients, .client-list-container .no-products {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
